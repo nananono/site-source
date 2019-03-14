@@ -4,7 +4,7 @@
 
 # Site
 title: Nana & Nono
-subtitle: Blog of Nana and Nono.
+subtitle: 存在与抽象
 description: Blog of Nana and Nono.
 author: Nana & Nono.
 language:
@@ -72,7 +72,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+# theme: landscape
+theme: hexo-theme-autumn
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
