@@ -1,9 +1,9 @@
-.header 
+.header
   text-align: center
-  h1, h2 
+  h1, h2
     margin: 0
     line-height: 1.2
-  .title 
+  .title
     a
       color:#f78769
       text-decoration: none
@@ -11,13 +11,13 @@
       transition: .3s
       &:hover
         color: #bbb
-    
+
   .desc
       margin:.5em 0 .25em
       font: 18px Lora
       color: #bbb
 
-  .links 
+  .links
     height: 40px
     margin: 2.25em auto 4.5em
     border-top: 1px dashed #ddd
@@ -25,16 +25,17 @@
     font: 700 13px Lato-Bold
     text-transform: uppercase
     letter-spacing: 1px
-    ul 
+    ul
       text-decoration: none
       padding: 0
       li
         display: inline-block
-        &:first-child::after
+        &::after
           content: "\00B7"
           margin: 0 .75em
-        &:last-child::after 
+        &:last-child::after
           content: ''
+          margin: 0
         a
           color: #777
           text-decoration: none
@@ -44,19 +45,19 @@
 
   .social-button
     display: none
-  
+
   .hide-links
     display: block
 
-@media screen and (max-width: 640px) 
-  .header 
-    .title 
+@media screen and (max-width: 640px)
+  .header
+    .title
       a
         font-size: 2.5rem
     .links
       border: none
 
-    .social-links 
+    .social-links
       margin-top: 9px
       padding-top: 9px !important
       text-align: left
@@ -75,8 +76,8 @@
       font: 700 13px Lato-Bold
       color: #fff
       text-transform: upperCase
-            
-      &::before 
+
+      &::before
         content: ''
         background: url('https://cdn.jsdelivr.net/gh/frontendsophie/hexo-theme-autumn@1.0.0/source/img/menu.svg')
         display: inline-block
