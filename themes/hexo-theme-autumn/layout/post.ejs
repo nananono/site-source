@@ -1,16 +1,16 @@
 <article class="post">
-    <% if (page.categories){%>
-    <% page.categories.each(function (cat) { %>
-    <h4 class="post-cat">
-        <a href="<%- url_for(cat.path) %>">
-            <%= cat.name %>
-        </a>
-    </h4>
-    <%  }) %>
-    <% } %>
     <h2 class="post-title">
         <%= page.title %>
     </h2>
+    <% if (page.categories){%>
+        <% page.categories.each(function (cat) { %>
+            <h4 class="post-cat">
+                <a href="<%- url_for(cat.path) %>">
+                    <%= cat.name %>
+                </a>
+            </h4>
+        <%  }) %>
+    <% } %>
     <ul class="post-date">
         <li>
             <%- date(page.date, "YYYY-MM-DD") %>
