@@ -1,6 +1,6 @@
 ---
 title: 个性
-category: 个性馆
+category: 【个性馆】
 tags: 个性
 date: 2019-03-25 10:00:00
 ---

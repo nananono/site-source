@@ -1,6 +1,6 @@
 ---
 title: 极简
-category: 极简馆
+category: 【极简馆】
 tags: 极简
 date: 2019-03-25 10:00:00
 ---
