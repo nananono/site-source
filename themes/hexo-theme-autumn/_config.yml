@@ -1,8 +1,8 @@
 # Nav
 social:
-  【关于我】: /about
-  【讨论区】: http://forum.nananono.com
-  【小卖部】: https://taobao.com
+  【关于】: /about
+  【讨论】: http://forum.nananono.com
+  【良品】: https://taobao.com
 
 # Background image, color
 background: 'url(https://cdn.jsdelivr.net/gh/frontendsophie/hexo-theme-autumn@1.0.0/source/img/button-bg.png) #f3f3f3'
