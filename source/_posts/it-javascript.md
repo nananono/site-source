@@ -19,7 +19,3 @@ date: 2019-03-29 10:00:00
 2. 虚拟机。
 3. 关联者：Web 前端（包括浏览器、HTML、CSS 等）、Node.js、Unity等。
 4. 生态系统。如 TypeScript、Babel、Webpack 等。
-
-
-
-<!-- more -->

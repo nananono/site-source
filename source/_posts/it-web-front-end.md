@@ -21,7 +21,3 @@ date: 2019-03-29 10:00:00
 4. JavaScript。
 5. HTTP。
 6. 基于以上发展起来的生态系统。如 TypeScript、Babel、Webpack 等。
-
-
-
-<!-- more -->
